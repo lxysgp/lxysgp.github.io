@@ -1,32 +1,39 @@
 body {
-  background-color: #000;
-  color: #fff;
-  font-family: monospace;
-  padding: 40px;
-  max-width: 700px;
-  margin: auto;
+  background-color: black;
+  color: white;
+  font-family: Consolas, 'Fira Code', 'Courier New', monospace;
+  text-align: center;
+  margin: 0;
+  padding: 40px 20px;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   margin-bottom: 0.2em;
 }
 
 h2 {
+  font-size: 1.6em;
   margin-top: 2em;
-  font-size: 1.5em;
+}
+
+p, li {
+  font-size: 1.1em;
+  margin: 0.5em 0;
 }
 
 a {
-  color: #00ffff;
+  color: cyan;
   text-decoration: underline;
 }
 
 em {
   color: #ccc;
+  font-style: italic;
 }
 
 ul {
   list-style-type: none;
   padding-left: 0;
+  margin: 0.5em 0;
 }
